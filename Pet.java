@@ -14,7 +14,14 @@ public class Pet{
         else if (color.equals("green"));
             System.out.println("enter season");
          {
-            
+        String season = myObj.nextLine();
+        System.out.println();
+
+        if(season.equals("winter")); 
+        else if (season.equals("fall"));
+        else if (season.equals("spring"));
+        else if (season.equals("summer"));
+            System.out.println("enter season");
         }
 
 
