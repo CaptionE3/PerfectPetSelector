@@ -27,6 +27,13 @@ public class Pet{
 
         
             System.out.println("enter name");
+        String name=myObj.nextLine();
+          if ("abcdefghijklmnopqrstuvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) < 0){
+                System.out.println("Not a real name!");
+                return;
+
+          }
+
         }
         
 
