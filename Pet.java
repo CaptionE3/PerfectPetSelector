@@ -43,6 +43,9 @@ public class Pet{
         if (color.equals("green") && season.equals("winter")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
             System.out.println("you should have a giraffe");
         }
+        if (color.equals("green") && !season.equals("fall")&&!season.equals("winter")){
+            System.out.println("you should have a dog");
+        }
         }
         
 
