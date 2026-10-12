@@ -8,7 +8,7 @@ public class Pet{
 
         String color = myObj.nextLine();
         
-
+        //asks color
         if(!color.equals("blue") && !color.equals("red") && !color.equals("green")){
             System.out.println("Not a real color!");
             return;
@@ -19,13 +19,13 @@ public class Pet{
          
         String season = myObj.nextLine();
         
-        
+            //asks season
          if(!season.equals("winter") && !season.equals("fall") && !season.equals("summer") && !season.equals("spring")){
             System.out.println("Not a real season!");
             return;
          }
 
-        
+            //asks name
             System.out.println("enter name");
         String name=myObj.nextLine();
           if ("abcdefghijklmnopqrstuvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) < 0){
@@ -33,7 +33,13 @@ public class Pet{
                 return;
 
           }
-
+        if (color.equals("blue") && season.equals("fall")){
+            System.out.println("you should have an alligater");
+        }
+        
+        if (color.equals("blue") && season.equals("spring")){
+            System.out.println("you should have an ostrich");
+        }
         }
         
 
