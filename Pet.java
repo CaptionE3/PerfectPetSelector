@@ -31,7 +31,7 @@ public class Pet{
           if ("abcdefghijklmnopqrstuvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) < 0){
                 System.out.println("Not a real name!");
                 return;
-
+            //determines what pet you get 
           }
         if (color.equals("blue") && season.equals("fall")){
             System.out.println("you should have an alligater");
@@ -39,6 +39,9 @@ public class Pet{
         
         if (color.equals("blue") && season.equals("spring")){
             System.out.println("you should have an ostrich");
+        }
+        if (color.equals("green") && season.equals("winter")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
+            System.out.println("you should have a giraffe");
         }
         }
         
