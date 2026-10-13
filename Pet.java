@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Pet{
+    //Eitan A pd.4
+    //the following code will determine what pet you should get based on your name, favorite color, and favorite season.
     public static void main(String[]args){
         Scanner myObj=new Scanner(System.in);
         System.out.println("enter color");
@@ -46,9 +48,7 @@ public class Pet{
         else if (color.equals("green") && !season.equals("fall")&&!season.equals("winter")){
             System.out.println("you should have a dog");
         }
-        else if (color.equals("red") ){
-            System.out.println("you should have a panda");
-        }
+        
         else if (color.equals("red") && ("aeiou".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
             System.out.println("you should have a porcupine");
         }
@@ -56,7 +56,10 @@ public class Pet{
             System.out.println("you should have a pony");
         }
         else if (color.equals("blue") && ("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)&&season.equals("winter")){
-            System.out.println("you should have a porcupine");
+            System.out.println("you should have an axolotl");
+        }
+        else if (color.equals("red") ){
+            System.out.println("you should have a panda");
         }
         else 
              System.out.println("you should have a rock");
