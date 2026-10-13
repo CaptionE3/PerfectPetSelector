@@ -58,7 +58,10 @@ public class Pet{
         if (color.equals("blue") && ("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)&&season.equals("winter")){
             System.out.println("you should have a porcupine");
         }
+        else 
+             System.out.println("you should have a rock");
+
     }
-    
+}
 
 
