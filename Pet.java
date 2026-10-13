@@ -54,14 +54,10 @@ public class Pet{
         }
         if (!color.equals("green") && !color.equals("red") && season.equals("summer")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
             System.out.println("you should have a pony");
-
-
         }
-        
-
-
-
-
+        if (color.equals("blue") && ("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)&&season.equals("winter")){
+            System.out.println("you should have a porcupine");
+        }
     }
     
 
