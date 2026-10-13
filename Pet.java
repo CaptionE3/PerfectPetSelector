@@ -46,6 +46,16 @@ public class Pet{
         if (color.equals("green") && !season.equals("fall")&&!season.equals("winter")){
             System.out.println("you should have a dog");
         }
+        if (color.equals("red") ){
+            System.out.println("you should have a panda");
+        }
+        if (color.equals("red") && ("aeiou".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
+            System.out.println("you should have a porcupine");
+        }
+        if (!color.equals("green") && !color.equals("red") && season.equals("summer")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
+            System.out.println("you should have a pony");
+
+
         }
         
 
