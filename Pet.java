@@ -37,25 +37,25 @@ public class Pet{
             System.out.println("you should have an alligater");
         }
         
-        if (color.equals("blue") && season.equals("spring")){
+        else if (color.equals("blue") && season.equals("spring")){
             System.out.println("you should have an ostrich");
         }
-        if (color.equals("green") && season.equals("winter")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
+        else if (color.equals("green") && season.equals("winter")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
             System.out.println("you should have a giraffe");
         }
-        if (color.equals("green") && !season.equals("fall")&&!season.equals("winter")){
+        else if (color.equals("green") && !season.equals("fall")&&!season.equals("winter")){
             System.out.println("you should have a dog");
         }
-        if (color.equals("red") ){
+        else if (color.equals("red") ){
             System.out.println("you should have a panda");
         }
-        if (color.equals("red") && ("aeiou".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
+        else if (color.equals("red") && ("aeiou".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
             System.out.println("you should have a porcupine");
         }
-        if (!color.equals("green") && !color.equals("red") && season.equals("summer")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
+        else if (!color.equals("green") && !color.equals("red") && season.equals("summer")&&("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)){
             System.out.println("you should have a pony");
         }
-        if (color.equals("blue") && ("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)&&season.equals("winter")){
+        else if (color.equals("blue") && ("bcdfghjklmnpqrstvwxyz".indexOf(name.substring(0,0 + 1).toLowerCase()) >= 0)&&season.equals("winter")){
             System.out.println("you should have a porcupine");
         }
         else 
